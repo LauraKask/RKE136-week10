@@ -39,6 +39,7 @@ app.get('/search', (req, res) => {
     res.render('search', {movieDetails:''});
 });
 
+<<<<<<< HEAD
 app.post('/search', (req, res) => {
     let userMovieTitle = req.body.movieTitle;
 
@@ -88,3 +89,8 @@ app.post('/search', (req, res) => {
     app.listen(process.env.PORT || 3000, () => {
         console.log('Server is running on Port 3000.');
     });
+=======
+app.listen(process.env.PORT || 3000, ()=>{
+    console.log('Server is running on Port 3000.');
+});
+>>>>>>> c58af59d4ff9e0370d74d02cee43203b4b07814f
