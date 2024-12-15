@@ -11,6 +11,17 @@ html  {
     color: #151515;
 }
 
+.form-container {
+    width: 75%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+}
+
 .movie-card {
     margin-top: 5rem;
     height: 800px;
