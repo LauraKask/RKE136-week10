@@ -161,3 +161,9 @@ footer ul li a {
     font-size: 1rem;
     color: #322a74;
 }
+
+ .chat-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
